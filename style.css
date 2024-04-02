@@ -10,7 +10,7 @@ body {
     margin: 0;
     margin-top: 25px;
 }
-
+/*homepage*/
 main#homepage {
     width: 80%;
     display: flex;
@@ -21,4 +21,13 @@ main#homepage {
 main#homepage > img {
     width: calc(100% / 6 * (9 / 10));
     object-fit: cover;
+}
+/*programme page*/
+div.piece {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 25px;
 }
