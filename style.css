@@ -31,3 +31,6 @@ div.piece {
     margin-left: 15%;
     margin-top: 25px;
 }
+div.piece:hover {
+    cursor: pointer;
+}
