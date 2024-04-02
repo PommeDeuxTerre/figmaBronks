@@ -1,26 +1,13 @@
-header {
+@import './css_modules/header.css';
+
+main {
     display: grid;
-    grid-template: repeat(3, 1fr) / 10% repeat(6, 1fr) 10%;
-    height: 200px;
+    grid-template-columns: 10% repeat(6, 1fr) 10%;
+    margin: auto;
 }
-header > img {
-    grid-row: 1 / span 2;
-    grid-column: 2 / span 3;
-    max-width: 100%;
-    max-height: 100%;
-}
-header > input[type=search]{
-    grid-row: 1 / span 1;
-    grid-column: 6 / span 2;
-}
-header > .languages{
-    grid-row: 2 / span 1;
-    grid-column: 7 / span 1;
-}
-header > nav {
-    grid-row: 3 / span 1;
-    grid-column: 2 / span 6;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+#img1 { grid-column: 2 / span 1; }
+#img2 { grid-column: 3 / span 1; }
+#img3 { grid-column: 4 / span 1; }
+#img4 { grid-column: 5 / span 1; }
+#img5 { grid-column: 6 / span 1; }
+#img6 { grid-column: 7 / span 1; }
