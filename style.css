@@ -6,6 +6,11 @@
     --black: #040404;
 }
 
+body {
+    margin: 0;
+    margin-top: 25px;
+}
+
 main {
     width: 80%;
     display: flex;
