@@ -1,0 +1,23 @@
+.newsletter {
+    width: 80%;
+    background-color: var(--yellow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 37px;
+}
+.newsletter > h2 {
+    margin-bottom: 0;
+}
+.newsletter > p {
+    margin-top: 0.3em;
+}
+.newsletter > a {
+    margin-bottom: 1em;
+    padding: 10px;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    background-color: var(--black);
+}
