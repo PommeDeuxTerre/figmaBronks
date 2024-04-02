@@ -1,0 +1,50 @@
+/*newsletter*/
+.newsletter {
+    width: 80%;
+    background-color: var(--yellow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 37px;
+}
+.newsletter > h2 {
+    margin-bottom: 0;
+}
+.newsletter > p {
+    margin-top: 0.3em;
+}
+.newsletter > a {
+    padding: 10px;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    background-color: var(--black);
+    margin-bottom: 1em;
+}
+/*logos*/
+footer > .logos {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 37px;
+}
+footer > .logos > img {
+    object-fit: contain;
+}
+/*footer*/
+footer > .footer {
+    color: white;
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 37px;
+    padding-bottom: 30px;
+}
+footer > .footer > a {
+    color: white;
+}

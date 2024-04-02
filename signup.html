@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site Bronks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="./img/logo_Bronks.png" alt="logo Bronks" onclick="window.location.href = './index.html';">
+        <div class="search-bar">
+            <p>Chercher</p>
+            <input type="search">
+        </div>
+        <div class="languages">
+            <a href="">NL</a>
+            <a href="" class="selected">FR</a>
+            <a href="">EN</a>
+        </div>
+        <nav>
+            <a href="./programme.html">PROGRAMME</a>
+            <a href="./studio.html">STUDIO BRONKS</a>
+            <a href="./ecoles.html">ÉCOLES</a>
+            <a href="./open_huis.html">OPEN HUIS</a>
+            <a href="">À PROPOS DE BRONKS</a>
+            <a href="">VOTRE VISITE</a>
+        </nav>
+    </header>
+    <main id="signup">
+        <h1>INSCRIPTION</h1>
+        <form action="" id="signup-form">
+            <div class="field">
+                <label for="email">E-MAIL*</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="field">
+                <label for="nom">NOM*</label>
+                <input type="text" name="nom" id="nom" required>
+            </div>
+            <div class="field">
+                <label for="prenom">PRENOM*</label>
+                <input type="text" name="prenom" id="prenom" required>
+            </div>
+            <div class="field">
+                <label for="adress">ADRESSE</label>
+                <input type="text" name="adress" id="adress">
+            </div>
+            <button type="submit">ENVOYER</button>
+        </form>
+    </main>
+</body>
+</html>

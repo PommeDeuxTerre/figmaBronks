@@ -1,0 +1,97 @@
+@import './css_modules/header.css';
+@import './css_modules/footer.css';
+
+:root {
+    --yellow: #FFE81C;
+    --black: #040404;
+    --field: #FAF4F4;
+}
+
+body {
+    margin: 0;
+    margin-top: 25px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+/*homepage*/
+main#homepage {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+main#homepage > img {
+    width: calc(100% / 6 * (9 / 10));
+    object-fit: cover;
+}
+/*programme page*/
+div.piece {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 25px;
+}
+div.piece:hover {
+    cursor: pointer;
+}
+/*piece page*/
+#page {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+#page > img {
+    width: 50%;
+}
+#page > h2, #page > div.details {
+    width: 40%;
+    margin: auto;
+}
+/*signup page*/
+#signup > h1 {
+    width: 80%;
+    text-align: start;
+    margin: 20px auto;
+}
+#signup-form {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+.field {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 900;
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+.field:first-child, .field:nth-child(4) {
+    width: 100%;
+}
+.field > input {
+    width: 100%;
+    height: 67px;
+    background-color: var(--field);
+}
+#signup-form > button[type=submit] {
+    width: 15%;
+    height: 40px;
+    background-color: var(--black);
+    font-weight: 900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 20px auto;
+}
