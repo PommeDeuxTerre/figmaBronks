@@ -16,7 +16,6 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    grid-template-columns: 10% repeat(6, 1fr) 10%;
     margin: auto;
 }
 main > img {
